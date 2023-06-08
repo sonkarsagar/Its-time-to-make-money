@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tacebook - log in or sign up</title>
+    <link rel="stylesheet" href="cgpt.css">
+</head>
+<body>
+    <form action="http://127.0.0.1:5500/signUp/signup.html" id="form">
+        <input type="text" name="email" id="email" placeholder="Email address or phone number"><br>
+        <input type="password" name="password" id="password" placeholder="Password"><br>
+        <button id="submit">Log in</button><br><br>
+        <button id="create" value="Redirect">Create new account</button>
+    </form>
+    <script src="./login.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</body>
+</html>
